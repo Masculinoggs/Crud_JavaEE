@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Cadastro Usuário</title>
+
+
+<link rel="stylesheet" href="estilo.css">
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+	rel="stylesheet">
+
+</head>
+<body>
+	<div class="box">
+		<form name="frmContato" action="insert">
+			<fieldset>
+				<legend>
+					<b>Criar Novo Usuário</b>
+				</legend>
+				<br>
+
+				<div class="inputBox">
+					<label for="nome">Nome</label> <br>
+					<br> <input type="text" name="nome" placeholder="Nome"
+						class="inputUser">
+				</div>
+				<br>
+				<div class="inputBox">
+					<label for="fone">Telefone</label> <br>
+					<br> <input type="text" name="fone" placeholder="Fone"
+						class="inputUser">
+				</div>
+				<br>
+				<br>
+				
+				
+				<div class="inputBox">
+			     <label for="email">Email</label><br><br>
+				<input type="text" name="email" placeholder="E-mail" class="inputUser">
+				</div>
+				<br>
+				<br>
+				
+				<div class="inputBox">
+			     <label for="senha">Senha</label><br><br>
+				<input type="text" name="senha" placeholder="********" class="inputUser">
+				</div>
+				<br>
+				<br>
+				
+				 <input type="button" value="Adicionar" class="Botao1"
+					onclick="validar()">
+			
+		
+			</fieldset>
+		</form>
+	</div>
+	<script src="scripts/validar.js"></script>
+</body>
+</html>
