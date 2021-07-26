@@ -3,7 +3,7 @@
 <h2>Java Web - Cadastro Usuários</h2>
 
 <h3>Linguagens Utilizadas:</h3>
-<p>Java utilizando a plataforma Java EE
+<p>Java utilizando a plataforma Java EE e
   JavaScript</p>
 
 <h3>Front-End:</h3>
